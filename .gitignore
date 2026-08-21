@@ -1,0 +1,16 @@
+# このアプリがエクスポートするデータのバックアップファイル(個人情報を含むため絶対にコミットしない)
+*.biyounote.json
+/data/
+/backup/
+
+# OSが自動生成するファイル
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# エディタの設定
+.vscode/*
+!.vscode/extensions.json
+
+# Node.jsを将来使う場合に備えて(現時点では未使用)
+node_modules/
